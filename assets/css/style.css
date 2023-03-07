@@ -246,8 +246,13 @@ color: white;
 	font-weight: bold;
 }
 
+#main3 .kind2 .großkind3{
+	display: flex;
+	flex-direction: row;
+}
 
-#main3 .kind2 .großkind .großkind2{
+
+#main3 .großkind .großkind2{
 	border: 1px solid black;
 	padding-right: 50px;
 	padding-top: 5px;

@@ -1,8 +1,8 @@
-@media only screen and (max-width: 767px) {
-/* Styles pour les écrans jusqu'à 767px de largeur */
+@media screen and (max-width: 340px) and (orientation: portrait){
+
 
 body{
-	width: 90%;
+	width: 100%;
 	height: 100%;
 }
 
@@ -56,7 +56,6 @@ font-size: 15px;
 #main2 .content .kind3 {
 width: 30%;
 font-size: 14px;
-}
 }
 
 #main1 #video-background {
@@ -230,4 +229,11 @@ aside{
 }
 .mehrvonadidas{
 	padding-top: 5%;
+}
+
+#footer3{
+	display: none;
+}
+
+
 }
