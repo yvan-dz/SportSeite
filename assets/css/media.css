@@ -45,14 +45,14 @@ margin-top: 0;
 }
 
 #main1 .background-wrapper{
-	background-image: url("C:/Users/Yvan/Desktop/Apprentissage Web/SportSeite/assets/img//background1.jpg");
+	background-image: url("https://www.malemodelscene.net/wp-content/uploads/2022/11/BALENCIAGA-ADIDAS-Spring-2023-01.jpg");
 	background-size: cover;
   background-position: center;
   background-clip: content-box;
 }
 
 #main2 .background-wrapper{
-	background-image: url("C:/Users/Yvan/Desktop/Apprentissage Web/SportSeite/assets/img//background2.jpg");
+	background-image: url("https://i.pinimg.com/originals/56/eb/9d/56eb9deda1fb5260d61fe0c826160660.jpg");
 	background-size: cover;
   background-position: center;
   background-clip: content-box;
@@ -147,6 +147,10 @@ font-size: 14px;
 	flex-direction: column;
 	margin-top: 20%;
 	margin-bottom: 10%;
+}
+
+#main5 .kind1{
+	display: none;
 }
 #main5 .kind1,#main5 .kind2{
 	margin-bottom: 20%;
