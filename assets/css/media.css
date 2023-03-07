@@ -6,6 +6,10 @@ body{
 	height: 100%;
 }
 
+video{
+	display: none;
+}
+
 header {
 flex-direction: column;
 align-items: center;
@@ -40,10 +44,27 @@ margin-left: 0;
 margin-top: 0;
 }
 
+#main1 .background-wrapper{
+	background-image: url("C:/Users/Yvan/Desktop/Apprentissage Web/SportSeite/assets/img//background1.jpg");
+	background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+}
+
+#main2 .background-wrapper{
+	background-image: url("C:/Users/Yvan/Desktop/Apprentissage Web/SportSeite/assets/img//background2.jpg");
+	background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+}
+
+
+
 #main1 .content,
 #main2 .content {
 margin-left: 5%;
 margin-top: 15%;
+padding-top: 50%;
 }
 
 #main1 .content .kind1,
@@ -63,14 +84,7 @@ font-size: 14px;
 }
 
 
-#main1 #video-background {
-  position: absolute;
-  top: 50%; /* Positionnement vertical au milieu de la zone d'affichage */
-  left: 50%; /* Positionnement horizontal au milieu de la zone d'affichage */
-  transform: translate(-50%, -50%); /* Recentrage de la vidéo */
-  min-width: 100%;
-  min-height: 100%;
-}
+
 
 #main1 .content {
   position: relative;
@@ -79,6 +93,7 @@ font-size: 14px;
   margin-top: 20%;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 #main3 .kind1 div{
 	margin-left: 10%;
