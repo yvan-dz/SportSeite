@@ -1,8 +1,8 @@
-@media screen and (max-width: 340px) and (orientation: portrait){
-
+@media only screen and (max-width: 767px) {
+/* Styles pour les écrans jusqu'à 767px de largeur */
 
 body{
-	width: 100%;
+	width: 90%;
 	height: 100%;
 }
 
@@ -57,6 +57,7 @@ font-size: 15px;
 width: 30%;
 font-size: 14px;
 }
+
 
 #main1 #video-background {
   position: absolute;
@@ -231,9 +232,8 @@ aside{
 	padding-top: 5%;
 }
 
-#footer3{
+#footer4{
 	display: none;
 }
-
 
 }
