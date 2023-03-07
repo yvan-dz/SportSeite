@@ -259,4 +259,10 @@ aside{
 	display: none;
 }
 
+#main3 .kind1 div:hover,#main3 .kind2 .großkind .großkind1:hover,
+#main4 .kind1 div:hover,#main4 .kind2 div img:hover,#section2 .kind div:hover{
+	cursor: pointer;
+	font-size: larger;
+}
+
 }
